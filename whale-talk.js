@@ -14,7 +14,7 @@ const vowels = str => {
   for (let i in letters) {
     if (vowels.includes(letters[i])) {
       vowelsFound.push(letters[i]);
-      if(letters[i] === vowels[1] || letters[i] === vowels[4]) {
+      if (letters[i] === vowels[1] || letters[i] === vowels[4]) {
         vowelsFound.push(letters[i]);
       }
     }
